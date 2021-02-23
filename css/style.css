@@ -18,20 +18,15 @@ a , .navigation {
     text-decoration: none;
 }
 
-header, .navigation, .container{
-    
+header, .navigation, .container, footer {
 	padding: 0 1em;
 	margin: 0 auto;
     border: 0 ;
     display: flow-root;
 }
 
-
-header>.top>h1{
-    margin-top: .2em;
-}
 .top{
-    padding: 1.4em 1em;
+    display: flow-root;
     color: rgba(255, 255, 255, 0.8);
     margin: 0 -1em;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/ingredients-1920w.jpg);
@@ -39,8 +34,7 @@ header>.top>h1{
     background-repeat: no-repeat;
 }
 .navigation{
-    background-color: #2A2B32;
-    color: #FDBB48;    
+    background-color: #2A2B32;   
     line-height: 1.7em;
     margin: 0 -1em;
 }
@@ -49,8 +43,39 @@ header>.top>h1{
 	width: auto;
 	max-width: 30em;
 }
-.top>ul>li>data, .baking{
+.top>.tpp-wrapper>ul>li>data, .top-baking{
     background-color: #FDBB49;
     color: #000;
-    padding: .1em .2em;
+    padding: .1em .1em;
+    display: inline;
+}
+
+.tpp-wrapper {
+    padding-top: 1em;
+}
+
+.tpp-wrapper>h1 {
+    margin-top: .2em;
+}
+table, th, td {
+    border: .1em solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    width: 100%
+  }
+tr:nth-child(even) {
+    background-color: #fff;
+  }
+tr:nth-child(odd) {
+   background-color: #eee;
+  }
+th{
+     background-color: #fff
+ } 
+ footer{
+    color:#fff;
+    background-color:#2A2B32;
+    padding: 1em ;
+    line-height: 1.4em;
 }
