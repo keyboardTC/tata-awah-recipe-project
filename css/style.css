@@ -115,7 +115,7 @@ nav{
     .container{
         padding: 0 1em;
         width:30em;
-        /* margin:-1em auto; */
+        margin:0em auto;
     }
     .navigation{
         display:flex;
