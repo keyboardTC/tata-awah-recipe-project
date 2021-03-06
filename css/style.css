@@ -173,10 +173,13 @@ footer nav ul li:nth-of-type(2){
     width: 2rem;
 }
 .footer-nav>p{
-    margin:1.7em 0 .2em 0;
+    margin:1.2em 0 .2em 0;
 }
 .footer-nav>ul{
     margin:.2em 0 1em 0;
+}
+.footer-nav{
+    padding-left: 0;
 }
 /* =================== end footer ====================*/
 
