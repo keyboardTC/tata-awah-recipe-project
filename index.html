@@ -13,17 +13,18 @@
 
     <header>
       <div class="top">
-        <div class="tpp-wrapper">
-          <h4 class="top-baking">Baking</h4>
-          <h1>Delicious No-Knead baguettes</h1>
+          <h4 class="top-baking">baking</h4>
+          <h1>delicious no-knead baguettes</h1>
           <p>Make three <strong>fluffy and delicious baguettes</strong>using a simple <a href="#"><u>folding technique</u></a>, instead of labour intensive kneading.</p>
-          <ul>
-            <li>ACTIVE TIME <data value="40"><strong>40 MINS</strong></data></li>
-            <li>TOTAL TIME <data value="180"><strong>3 HRS</strong></data></li>
-            <li>CALORIES <data value="1670"><strong>1670</strong></data></li>
-            <li>SKILL LEVEL <data value="160"><strong>MEDIUM</strong></data></li>
-          </ul> 
-        </div>
+          <div class="time">
+            <ul>
+              <li><span>active time</span>  <data value="40"><strong>40 MINS</strong></data></li>
+              <li><span>total time</span><data value="180"><strong>3 HRS</strong></data></li>
+              <li><span>calories</span>  <data value="1670"><strong>1670</strong></data></li>
+              <li><span>skill level</span>  <data value="160"><strong>MEDIUM</strong></data></li>
+            </ul> 
+          </div>
+
       </div>
      
       <nav class="navigation">
@@ -38,68 +39,72 @@
       </nav>
     </header>
 
-    <div class="container">
+    <main class="container">
       <article>
-        <div>
-          <h2>STORY</h2>
+        <section aria-label="Story" id="story">
+          <h2>story</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla expedita autem accusamus, aut omnis nesciunt praesentium doloribus sint? Voluptatem voluptates eaque nemo obcaecati hic consequuntur maiores perferendis pariatur labore!</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem minima voluptas impedit, odio fugiat hic aut excepturi ullam reprehenderit animi placeat inventore ex, consectetur repellat quisquam natus rem vero reiciendis.</p>
           <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem minima voluptas impedit <br> Pablo Neruda</blockquote>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum dolore deleniti, assumenda quas perferendis inventore, laudantium doloribus aliquid sed pariatur minima hic. Ut, quidem maiores nesciunt incidunt blanditiis quas!</p>
-          <img src="./img/gallery-a.jpg" alt="Breads"><br>
+          <img src="./img/gallery-a.jpg" alt="Breads">
+        </section>
+<!--================= Start Side Bare ==================================-->
+        <div class="sidebare">
+          <section aria-label="ingredients"       id="ingredients">
+            <h2>ingredients</h2>
+            <span class="grams-lbs">grams</span><span> lbs</span>
+            <ul>
+              <li><strong>500 g</strong> bread flour</li>
+              <li><strong>400 g</strong> cool water</li>
+              <li><strong>10 g</strong> salt</li>
+              <li><strong>7.5 g</strong> yeast</li>
+              <li>Extra flour (for dusting)</li>
+            </ul>
+          </section>
+  
+          <section aria-label="equipment" id="equipment">
+            <h2>equipment</h2>
+            <ul>
+              <li>Large</li>
+              <li>Plastic wrap</li>
+              <li>Baking sheet or stone</li>
+              <li>Bench scraper</li>
+              <li>Thermometer</li>
+            </ul>
+          </section>
         </div>
-        
-        <div>
-          <h2>INGREDIENTS</h2>
-          <span class="grams-lbs">grams</span><span> lbs</span>
-          <ul>
-            <li><strong>500 g</strong> bread flour</li>
-            <li><strong>400 g</strong> cool water</li>
-            <li><strong>10 g</strong> salt</li>
-            <li><strong>7.5 g</strong> yeast</li>
-            <li>Extra flour (for dusting)</li>
-          </ul>
-        </div><br>
-
-        <div>
-          <h2>EQUIPMENT</h2>
-          <ul>
-            <li>Large</li>
-            <li>Plastic wrap</li>
-            <li>Baking sheet or stone</li>
-            <li>Bench scraper</li>
-            <li>Thermometer</li>
-          </ul>
-        </div><br>
-
-        <div>
-          <h2>PROCESS</h2>
+<!--================= End Side Bare ==================================-->
+        <section aria-label="process" id="process">
+          <h2>process</h2>
           <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, qui? Asperiores necessitatibus fugit laboriosam dignissimos cum culpa est pariatur, et possimus optio. Eum nam veritatis neque alias numquam quod nesciunt!</P>
-        </div><br>
+          <ol>
+            <li><strong>mixing</strong>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
+              <img src="./img/mixing-ingredients-1920w.jpg" alt="mixing-ingredients" ><figcaption>ipsum dolor, sit amet consectetur adipisicing elit.</figcaption> 
+            </li>
 
-        <div class="mixing">
-          <h4>1. <strong>Mixing</strong></h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
-          <p><img src="./img/baked-baguettes-480w.jpg" alt="" >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="folding">
-          <h4>1. <strong>Folding</strong></h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
-          <p>Lorem ipsum dolor, <span style="background-color: rgb(202, 151, 8);"> sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur</span></p>
-          <p><img src="./img/folding-dough-960w.jpg" alt="" >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="proofing">
-          <h4>1. <strong>Proofing</strong></h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
-          <p><img src="./img/proofing-960w.jpg" alt="" >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="baking">
-          <h4>1. <strong>Baking</strong></h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
-          <p><img src="./img/baked-baguettes-480w.jpg" alt="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="schedule">
-          <h4>1. <strong>SCHEDULE</strong></h4>
+            <li><h4>folding</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
+              <p>Lorem ipsum dolor, <span style="background-color: rgb(202, 151, 8);"> sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur</span></p>
+              <img src="./img/folding-dough-1920w.jpg" alt="folding-dough" ><figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </figcaption>
+            </li>
+
+            <li><h4>proofing</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
+              <img src="./img/proofing-1920w.jpg" alt="proofing" ><figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+            </li>
+
+            <li><h4>baking</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
+              <img src="./img/baked-baguettes-1920w.jpg" alt="baked-baguettes"><figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+            </li>
+
+          </ol>
+        </section>
+
+        <section aria-label="schedule" id="schedule">
+          <h2>schedule</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
           <TAble>
             <tr>
@@ -142,20 +147,27 @@
             </tr>
           </TAble>
           <p>Sample baking schedule</p>
-        </div>
-        <div class="result">
-          <h4>1. <strong>RESULT</strong></h4>
+        </section>
+
+        <section aria-label="schedule" id="schedule">
+          <h2>result</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error sunt, odit accusantium consectetur dignissimos natus beatae debitis aliquid hic possimus in laborum tempore modi facere a earum magni vel alias.</p>
-          <p><img src="./img/ready-to-eat-480w.jpg" alt="" >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <img src="./img/ready-to-eat-1920w.jpg" alt="" ><figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
           <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident mollitia in nam ut earum, dolore impedit assumenda. Aspernatur sapiente alias assumenda doloremque sit dicta, id aperiam totam consequatur blanditiis?</P>
           <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident mollitia in nam ut earum, dolore impedit assumenda. Aspernatur sapiente alias assumenda doloremque sit dicta, id aperiam totam consequatur blanditiis?</P>
-        </div>
+        </section>
       </article>
-    </div>
+    </main>
         
     <footer>
-      Copyright &copy; 1970 <br>
-      <a href="#">Terms</a> | <a href="#">Privacy</a>
+      <nav>
+        <p>Copyright &copy; 1970</p>
+        <ul>
+          <li><a href="/">terms</a></li>
+
+          <li><a href="/">privacy</a></li>
+        </ul>
+      </nav>
     </footer>
 
   </body>
