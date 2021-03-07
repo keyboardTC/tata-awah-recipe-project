@@ -118,7 +118,7 @@ main {
 blockquote {
 padding: 1em;
 border-left:.3em solid #FFBC48;
-margin:0 0 1em 1em;
+margin:0 0 1.5em 0em;
 box-shadow:
         inset 0 -3em 3em rgba(0,0,0,0.1),
             0 0  0 2px rgb(255,255,255),
@@ -182,7 +182,6 @@ footer nav ul li:nth-of-type(2){
     padding-left: 0;
 }
 /* =================== end footer ====================*/
-
 /* ================== start media queries ============*/
 @media only screen and (min-width: 850px) {
     /* For Desktop: */
@@ -225,17 +224,17 @@ footer nav ul li:nth-of-type(2){
         background-color:#FFBC48;
     }
     .navigation{
-        display:inline-flex;
         font-size:.5em;
-        margin:0 0 0 -2em;
+        margin:0 0 0 -2em ;
         }
+    .navigation ul{
+        display: flex;
+        justify-content: space-evenly; 
+        padding: 1em 2em;
+    }
     .navigation>ul>li{
         text-align: center;
-        display: inline-block;
         margin:0 0.8em;
-    }
-    .navigation ul{
-        margin:2em 0 2em 1em;
     }
     .time{
         justify-content: center;
